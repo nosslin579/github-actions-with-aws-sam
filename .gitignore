@@ -125,8 +125,12 @@ fabric.properties
  *.iml
  modules.xml
  .idea/misc.xml
+ .idea
  .idea/
+ .idea/modules.xml
+ .idea/vcs.xml
  .idea/*
+ .idea/**
 # *.ipr
 
 # Sonarlint plugin
@@ -306,6 +310,9 @@ Thumbs.db
 # Docs: https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/serverless-sam-reference.html
 
 **/.aws-sam
+.aws-sam
+.aws-sam/*
+.aws-sam/**
 
 ### VisualStudioCode ###
 .vscode/*
